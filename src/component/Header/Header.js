@@ -4,10 +4,10 @@ import logo from '../../assets/apple.png';
 
 const Header = () => {
     return (
-        <header>
+        <header data-test="headerComponent">
             <div className="wrap">
                 <div className="logo">
-                    <img src={logo} alt="Apple Logo"/>
+                    <img data-test="logoIMG" src={logo} alt="Apple Logo"/>
                 </div>
             </div>
         </header>
