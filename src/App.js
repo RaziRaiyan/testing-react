@@ -23,7 +23,7 @@ function App(props) {
   // console.log(props.posts);
 
   return (
-    <div >
+    <div data-test="AppComponent">
       <Header/>
       <section className="main">
         <Headline header="Posts" desc="Click the button to render posts" tempArr={tempArr}/>

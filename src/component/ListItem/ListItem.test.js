@@ -54,7 +54,7 @@ describe('ListItem component', () => {
                 desc: 'Test desc'
             }
 
-            wrapper = shallow(<ListItem/>)
+            wrapper = shallow(<ListItem props={props}/>)
         });
 
         it('Component is not rendered', () => {
